@@ -1,0 +1,34 @@
+body{
+    background-image:url(/csm_thomas-kelley-78865-unsplash_d8f03abfad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+    margin-left: 40px;
+
+    
+}
+.main{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 2px solid red;
+    background-color: aqua;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61ac9cf1e52ca44ca9f17a09/ef27c9c9-7cf2-4a07-9d46-0d75e8692644/unnamed-1.gif);
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 5 px blue;
+    
+    transition: 1s;
+}
+.main:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    background-image: url(https://dappradar.com/nft-metadata-image?format=preview&filePath=0x59468516a8259058bad1ca5f8f4bff190d30e066/100.gif);
+}
+ .music{
+
+ }
